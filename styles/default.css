@@ -9,32 +9,20 @@ body {
 /* Header section */
 .header {
 	background-color: #222222;
-	
-	padding: 12em 0em;
-}
-
-h1 {
-	font-size: 4em;
-	text-align: center;
-	margin: 0em;
-}
-
-/* Main section */
-.main {
-	margin: auto;
-	max-width: 64em;
 }
 
 /* Nav section */
 .nav {
-	background-color: #333333;
-	
+	margin: auto;
+	max-width: 80em;
+
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-end;
 }
 
 .nav a {
-	flex-grow: 1;
+	/* flex-grow: 1; */
 	padding: 1em;
 	text-align: center;
 }
@@ -53,6 +41,20 @@ h1 {
 
 .nav a:active {
 	color: orange;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	margin: 0em;
+
+	padding: 3em 0em;
+}
+
+/* Main section */
+.main {
+	margin: auto;
+	max-width: 80em;
 }
 
 /* Content section */
