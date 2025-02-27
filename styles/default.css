@@ -37,15 +37,15 @@ main {
 }
 
 .nav a:link {
-	color: yellow;
+	color: pink;
 }
 
 .nav a:visited {
-	color: yellow;
+	color: pink;
 }
 
 .nav a:hover {
-	color: pink;
+	color: yellow;
 	background-color: #333333;
 }
 
@@ -77,8 +77,8 @@ h1 {
 	background-color: #222222;
 	color: #AAAAAA;
 	
-	padding: 1em 0em;
 	font-size: 1em;
+	padding: 2em 0em;
 }
 
 .footer p{
