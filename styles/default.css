@@ -5,7 +5,12 @@ html {
 body {
 	background-color: black;
 	color: white;
-	font-family: sans-serif;
+
+	font-family: "Red Hat Text", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+
 	margin: 0px;
 	padding: 0px;
 	display: flex;
@@ -56,8 +61,12 @@ nav a:active {
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 5em;
 	margin: 0em;
+}
+
+h2 {
+	font-weight: normal;
 }
 
 .content {
@@ -84,3 +93,9 @@ footer p{
 .flex-fill{
 	flex: 1;
 }
+
+.lugrasimo-regular {
+	font-family: "Lugrasimo", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }  
