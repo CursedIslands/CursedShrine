@@ -26,6 +26,10 @@ nav {
 	justify-content: flex-end;
 }
 
+.logo {
+	height: 44px;
+}
+
 .flex-fill{
 	flex: 1;
 }
