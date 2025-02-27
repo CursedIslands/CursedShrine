@@ -8,30 +8,21 @@ body {
 	font-family: sans-serif;
 	margin: 0px;
 	padding: 0px;
-
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 }
 
-/* Header section */
 header {
 	background-color: #222222;
+	position: fixed;
+	width: 100%;
 }
 
-/* Nav section */
 nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
-}
-
-.logo {
-	height: 22px;
-}
-
-.flex-fill{
-	flex: 1;
 }
 
 nav a {
@@ -58,30 +49,25 @@ nav a:active {
 	color: orange;
 }
 
+main {
+	margin-top: 3em;
+}
+
 h1 {
 	font-size: 4em;
 	text-align: center;
 	margin: 0em;
-
 	padding: 3em 0em;
 }
 
-/* Content section */
 .content {
 	background-color: #111111;
-	
 	padding: 1em;
-}
-
-/* Footer section */
-.footer-space {
-	height: 3em;
 }
 
 footer {
 	background-color: #222222;
 	color: #AAAAAA;
-	
 	font-size: 1em;
 	padding: 2em 0em;
 }
@@ -93,4 +79,8 @@ footer p{
 .size-limiter {
 	margin: auto;
 	max-width: 80em;
+}
+
+.flex-fill{
+	flex: 1;
 }
