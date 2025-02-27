@@ -14,42 +14,43 @@ body {
 	min-height: 100vh;
 }
 
-main {
-	flex: 1;
-}
-
 /* Header section */
-.header {
+header {
 	background-color: #222222;
 }
 
 /* Nav section */
-.nav {
+nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
 }
 
-.nav a {
-	/* flex-grow: 1; */
+.flex-fill{
+	flex: 1;
+}
+
+nav a {
 	padding: 1em;
 	text-align: center;
+	display: flex;
+    align-items: center;
 }
 
-.nav a:link {
+nav a:link {
 	color: pink;
 }
 
-.nav a:visited {
+nav a:visited {
 	color: pink;
 }
 
-.nav a:hover {
+nav a:hover {
 	color: yellow;
 	background-color: #333333;
 }
 
-.nav a:active {
+nav a:active {
 	color: orange;
 }
 
@@ -73,7 +74,7 @@ h1 {
 	height: 3em;
 }
 
-.footer {
+footer {
 	background-color: #222222;
 	color: #AAAAAA;
 	
@@ -81,7 +82,7 @@ h1 {
 	padding: 2em 0em;
 }
 
-.footer p{
+footer p{
 	margin: 0em;
 }
 
