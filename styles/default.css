@@ -13,9 +13,6 @@ body {
 
 /* Nav section */
 .nav {
-	margin: auto;
-	max-width: 80em;
-
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
@@ -37,6 +34,7 @@ body {
 
 .nav a:hover {
 	color: pink;
+	background-color: #333333;
 }
 
 .nav a:active {
@@ -49,12 +47,6 @@ h1 {
 	margin: 0em;
 
 	padding: 3em 0em;
-}
-
-/* Main section */
-.main {
-	margin: auto;
-	max-width: 80em;
 }
 
 /* Content section */
@@ -71,11 +63,17 @@ h1 {
 
 .footer {
 	background-color: #222222;
+	color: #AAAAAA;
 	
-	position: fixed;
-	bottom: 0em;
-	width: 100%;
-	
+	padding: 1em 0em;
 	font-size: 1em;
-	text-align: center;
+}
+
+.footer p{
+	margin: 0em;
+}
+
+.size-limiter {
+	margin: auto;
+	max-width: 80em;
 }
