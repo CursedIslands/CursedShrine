@@ -42,20 +42,23 @@ nav a {
     align-items: center;
 }
 
-nav a:link {
-	color: pink;
-}
-
-nav a:visited {
-	color: pink;
-}
-
 nav a:hover {
-	color: yellow;
 	background-color: #333333;
 }
 
-nav a:active {
+a:link {
+	color: pink;
+}
+
+a:visited {
+	color: pink;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
 	color: orange;
 }
 
@@ -81,6 +84,7 @@ h2 {
 .content {
 	background-color: #111111;
 	padding: 1em;
+	margin-bottom: 10em;
 }
 
 footer {
@@ -88,6 +92,27 @@ footer {
 	color: #AAAAAA;
 	font-size: 1em;
 	padding: 2em 0em;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 2em;
+}
+
+.footer-item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-item h2{
+	margin-top: 0em;
+	margin-bottom: 0.2em;
+}
+
+.footer-item a{
+	margin: 0.2em 0em;
 }
 
 footer p{
