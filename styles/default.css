@@ -97,7 +97,6 @@ footer {
 .footer-container {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 2em;
 }
 
 .footer-item {
@@ -107,13 +106,18 @@ footer {
 	align-items: flex-start;
 }
 
-.footer-item h2{
+.footer-item h2 {
 	margin-top: 0em;
 	margin-bottom: 0.2em;
 }
 
-.footer-item a{
+.footer-item a {
 	margin: 0.2em 0em;
+}
+
+footer hr {
+	margin: 2em 0em;
+	border-color: #555555;
 }
 
 footer p{
