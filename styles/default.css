@@ -61,6 +61,10 @@ nav a:active {
 }
 
 h1 {
+	font-family: "Lugrasimo", cursive;
+	font-weight: 400;
+	font-style: normal;
+
 	font-size: 5em;
 	margin: 0em;
 }
@@ -93,9 +97,3 @@ footer p{
 .flex-fill{
 	flex: 1;
 }
-
-.lugrasimo-regular {
-	font-family: "Lugrasimo", cursive;
-	font-weight: 400;
-	font-style: normal;
-  }  
