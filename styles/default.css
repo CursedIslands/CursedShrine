@@ -4,9 +4,9 @@ html {
 
 body {
 	background-color: black;
-	background-image: url(../images/bg_night.webp);
+	background-image: url(../images/bg_cave.webp);
 	background-position: center;
-	background-size: cover;
+	background-repeat: repeat;
 	background-attachment: fixed;
 
 	font-family: "Red Hat Text", sans-serif;
@@ -34,6 +34,7 @@ body {
 
 header {
 	background-color: #111111;
+	border-bottom: 2px solid #333333;
 	position: fixed;
 	width: 100%;
 }
@@ -61,35 +62,42 @@ nav a:hover {
 }
 
 a:link {
-	color: pink;
+	color: #DDBBFF;
 }
 
 a:visited {
-	color: pink;
+	color: #DDBBFF;
 }
 
 a:hover {
-	color: yellow;
+	color: #FFFFFF;
 }
 
 a:active {
-	color: orange;
+	color: #AA99FF;
 }
 
 .hero {
-	margin-top: 3em;
+	margin-top: 4em;
 	padding: 10em 0;
 	text-align: center;
 }
 
-h1 {
+.hero h1 {
 	font-family: "Lugrasimo", cursive;
 	font-weight: 400;
 	font-style: normal;
 
+	text-shadow: 0px 0px 10px #AA00FF;
+
 	font-size: 5em;
 	margin: 0;
 	margin-bottom: 0.25em;
+}
+
+.hero h2 {
+	color: #DDBBFF;
+	text-shadow: 0px 0px 5px #AA00FF;
 }
 
 h2 {
@@ -107,6 +115,7 @@ h2 {
 
 footer {
 	background-color: #111111;
+	border-top: 2px solid #333333;
 	color: #AAAAAA;
 	font-size: 1em;
 }
