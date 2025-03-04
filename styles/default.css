@@ -33,7 +33,7 @@ body {
 }
 
 header {
-	background-image: linear-gradient(#261a40, #140e24);
+	background-color: #140e24;
 	border-bottom: 2px solid #3d2b57;
 	position: fixed;
 	width: 100%;
@@ -57,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-	background-image: linear-gradient(#3d2b57, #261a40);
+	background-image: linear-gradient(#261a40, #3d2b57);
 }
 
 a {
@@ -110,7 +110,7 @@ h2 {
 
 .content {
 	background-color: #261a40;
-	border: 2px solid #3d2b57;
+	border: 2px solid #4b3964;
 	padding: 2em;
 	margin-bottom: 10em;
 
