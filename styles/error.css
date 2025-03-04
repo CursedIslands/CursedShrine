@@ -1,0 +1,172 @@
+html {
+	min-height: 100vh;
+}
+
+body {
+	background-color: black;
+	background-image: url(../images/bg_cave.webp);
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+
+	font-family: "Red Hat Text", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.size-limiter {
+	margin: auto;
+	padding: 0 2em;
+	max-width: 80em;
+}
+
+.flex-fill{
+	flex: 1;
+}
+
+header {
+	background-color: #111111;
+	border-bottom: 2px solid #333333;
+	position: fixed;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+nav a {
+	font-family: "Lugrasimo", cursive;
+	font-weight: 400;
+	font-style: normal;
+
+	padding: 1em;
+	text-align: center;
+	display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+	background-color: #333333;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #DDAAFF;
+}
+
+a:visited {
+	color: #DDAAFF;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+a:active {
+	color: #AA88FF;
+}
+
+.hero {
+	margin-top: 4em;
+	padding: 11em 0;
+	text-align: center;
+}
+
+.hero h1 {
+	font-family: "Lugrasimo", cursive;
+	font-weight: 400;
+	font-style: normal;
+
+	text-shadow: 0px 0px 10px #AA55FF;
+
+	font-size: 5em;
+	margin: 0;
+	margin-bottom: 0.25em;
+}
+
+.hero h2 {
+	color: #DDCCEE;
+	text-shadow: 0px 0px 8px #AA55FF;
+}
+
+h2 {
+	margin: 0;
+	font-weight: normal;
+}
+
+.content {
+	background-color: #222222;
+	border: 2px solid #333333;
+	padding: 2em;
+	margin-bottom: 10em;
+
+	line-height: 1.4;
+}
+
+.content p {
+	color: #DDDDDD;
+}
+
+footer {
+	background-color: #111111;
+	border-top: 2px solid #333333;
+	color: #AAAAAA;
+	font-size: 1em;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.footer-item {
+	flex: 1;
+	min-width: 200px;
+	padding: 2em 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.footer-item h2 {
+	margin-top: 0;
+	margin-bottom: 0.2em;
+}
+
+.footer-item a {
+	margin: 0.2em 0;
+}
+
+.footer-item a:hover {
+	text-shadow: 0px 0px 5px #AA55FF;
+}
+
+footer hr {
+	margin: 0;
+	border: 0;
+	border-top: 2px solid #333333;
+}
+
+.credits {
+	padding: 2em 0;
+}
+
+footer p{
+	margin: 0;
+}
