@@ -34,7 +34,7 @@ body {
 
 header {
 	background-color: #111111;
-	border-bottom: 2px solid #333333;
+	border-bottom: 2px dashed #FFBB44, ;
 	position: fixed;
 	width: 100%;
 }
