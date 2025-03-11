@@ -1,0 +1,8 @@
+.bestiary-entry {
+    display: flex;
+    flex-direction: row;
+}
+
+.bestiary-entry tr:nth-child(even) {
+    background-color: #111111;
+  }
