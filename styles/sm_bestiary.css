@@ -1,6 +1,6 @@
 .bestiary-entry {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .bestiary-entry tr:nth-child(odd) {
