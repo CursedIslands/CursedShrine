@@ -1,6 +1,11 @@
-.bestiary-entry {
+.bestiary-container {
     display: flex;
     flex-direction: column;
+}
+
+.bestiary-entry {
+    display: flex;
+    flex-direction: row;
 }
 
 .bestiary-entry tr:nth-child(odd) {
