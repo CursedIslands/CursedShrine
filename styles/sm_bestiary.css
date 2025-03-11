@@ -3,6 +3,6 @@
     flex-direction: row;
 }
 
-.bestiary-entry tr:nth-child(even) {
+.bestiary-entry tr:nth-child(odd) {
     background-color: #111111;
   }
