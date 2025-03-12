@@ -8,6 +8,10 @@
     flex-direction: row;
 }
 
-.bestiary-entry tr:nth-child(odd) {
+.bestiary-entry tr:nth-child(even) {
     background-color: #111111;
-  }
+}
+
+.bestiary-entry p {
+    padding: 0 2em;
+}
