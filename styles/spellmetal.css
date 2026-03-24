@@ -73,6 +73,7 @@ header {
 	border-bottom: 2px solid #333333;
 	position: fixed;
 	width: 100%;
+	min-height: 56px;
 }
 
 nav {
@@ -130,22 +131,6 @@ nav a:hover {
 	line-height: 1.4;
 }
 
-.imagebox{
-	height: 16em;
-	width: 100%;
-	margin-bottom: 3em;
-
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	overflow: hidden;
-}
-
-.imagebox img{
-	height: 100%;
-	width: auto;
-}
-
 .content h2 {
 	font-weight: bolder;
 	margin-bottom: 0.2em;
@@ -160,6 +145,30 @@ nav a:hover {
 	margin: 3em 0em;
 	border: 0;
 	border-top: 2px solid #444444;
+}
+
+.content a{
+	text-decoration: underline;
+}
+
+.content a:hover {
+	text-shadow: 0px 0px 5px #AA55FF;
+}
+
+.imagebox{
+	height: 400px;
+	width: 100%;
+	margin-bottom: 3em;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.imagebox img{
+	height: 100%;
+	width: auto;
 }
 
 /* Footer */
