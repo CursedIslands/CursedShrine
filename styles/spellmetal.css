@@ -73,13 +73,14 @@ header {
 	border-bottom: 2px solid #333333;
 	position: fixed;
 	width: 100%;
-	min-height: 54px;
 }
 
 nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	align-items: stretch;
+	min-height: 58px;
 }
 
 nav a {
@@ -102,6 +103,7 @@ nav a:hover {
 	margin-top: 4em;
 	padding: 11em 0;
 	text-align: center;
+	min-height: 160px;
 }
 
 .hero h1 {
@@ -177,12 +179,14 @@ footer {
 	border-top: 2px solid #333333;
 	color: #AAAAAA;
 	font-size: 1em;
+	min-height: 318px;
 }
 
 .footer-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	min-height: 210px;
 }
 
 .footer-item {
