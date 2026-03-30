@@ -55,6 +55,12 @@ h2 {
 	max-width: 80em;
 }
 
+.size-limiter-always {
+	margin: auto;
+	padding: 0 2em;
+	max-width: 80em;
+}
+
 .flex-fill{
 	flex: 1;
 }
@@ -248,4 +254,24 @@ footer hr {
 
 footer p{
 	margin: 0;
+}
+
+@media (max-width: 700px) {
+		.size-limiter {
+		margin: auto;
+		padding: 0em;
+	}
+
+	.hero {
+		padding: 6em 0;
+		min-height: 269px;
+	}
+
+	.content {
+		border: 2px solid #444444;
+		border-left: 0px;
+		border-right: 0px;
+		padding: 2em;
+		margin-bottom: 6em;
+	}
 }
